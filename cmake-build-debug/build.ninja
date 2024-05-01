@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/admin/Documents/Clion$ Project/BlackConsleCompet
 
 build cmake_object_order_depends_target_BlackConsleCompetition: phony || CMakeFiles/BlackConsleCompetition.dir
 
-build CMakeFiles/BlackConsleCompetition.dir/main.cpp.obj: CXX_COMPILER__BlackConsleCompetition_unscanned_Debug C$:/Users/admin/Documents/Clion$ Project/BlackConsleCompetition/main.cpp || cmake_object_order_depends_target_BlackConsleCompetition
-  DEP_FILE = CMakeFiles\BlackConsleCompetition.dir\main.cpp.obj.d
+build CMakeFiles/BlackConsleCompetition.dir/src/main.cpp.obj: CXX_COMPILER__BlackConsleCompetition_unscanned_Debug C$:/Users/admin/Documents/Clion$ Project/BlackConsleCompetition/src/main.cpp || cmake_object_order_depends_target_BlackConsleCompetition
+  DEP_FILE = CMakeFiles\BlackConsleCompetition.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BlackConsleCompetition.dir
-  OBJECT_FILE_DIR = CMakeFiles\BlackConsleCompetition.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackConsleCompetition.dir\src
 
 build CMakeFiles/BlackConsleCompetition.dir/src/PhysicsEngine2D/PlainVector.cpp.obj: CXX_COMPILER__BlackConsleCompetition_unscanned_Debug C$:/Users/admin/Documents/Clion$ Project/BlackConsleCompetition/src/PhysicsEngine2D/PlainVector.cpp || cmake_object_order_depends_target_BlackConsleCompetition
   DEP_FILE = CMakeFiles\BlackConsleCompetition.dir\src\PhysicsEngine2D\PlainVector.cpp.obj.d
@@ -69,7 +69,7 @@ build CMakeFiles/BlackConsleCompetition.dir/src/PhysicsEngine2D/PlainVector.cpp.
 #############################################
 # Link the executable BlackConsleCompetition.exe
 
-build BlackConsleCompetition.exe: CXX_EXECUTABLE_LINKER__BlackConsleCompetition_Debug CMakeFiles/BlackConsleCompetition.dir/main.cpp.obj CMakeFiles/BlackConsleCompetition.dir/src/PhysicsEngine2D/PlainVector.cpp.obj
+build BlackConsleCompetition.exe: CXX_EXECUTABLE_LINKER__BlackConsleCompetition_Debug CMakeFiles/BlackConsleCompetition.dir/src/main.cpp.obj CMakeFiles/BlackConsleCompetition.dir/src/PhysicsEngine2D/PlainVector.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BlackConsleCompetition.dir
