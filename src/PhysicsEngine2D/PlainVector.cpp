@@ -3,3 +3,11 @@
 //
 
 #include "PlainVector.h"
+
+float PlainVector::getX() {
+    return X;
+}
+
+float PlainVector::getY() {
+    return Y;
+}

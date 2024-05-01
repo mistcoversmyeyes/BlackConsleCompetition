@@ -18,13 +18,9 @@ public:
         X = x , Y = y;
     }
 
-    float getX(){
-        return X;
-    }
+    float getX();
 
-    float getY(){
-        return Y;
-    }
+    float getY();
 };
 
 
