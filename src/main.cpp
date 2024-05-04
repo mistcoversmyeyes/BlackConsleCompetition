@@ -5,5 +5,7 @@ using namespace std;
 
 int main() {
         PlainVector p1;
-        cout << p1.getY() << endl;
+        PlainVector p2(1.1f ,1.2f);
+        p2 = p2 + p1;
+        cout << p2.getY() << endl;
 }
